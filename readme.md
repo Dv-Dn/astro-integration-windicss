@@ -19,3 +19,24 @@ export default defineConfig({
   ],
 });
 ```
+
+
+#### Visual Studio Code settings
+---
+Recomended plugin - [WindiCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense)
+
+##### settings.json
+---
+```json
+{
+...
+...
+  "windicss.includeLanguages": {
+    "astro": {
+      "type": "html",
+      "patterns": ["class\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    }
+  }
+}
+
+```

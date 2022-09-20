@@ -1,10 +1,13 @@
 {
   "name": "astro-integration-windicss",
   "description": "Windicss + Astro Integration",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "MIT",
-  "types": "./dist/index.d.ts",
   "homepage": "https://github.com/dv-dn/astro-integration-windicss",
+  "repository": {
+    "type": "git",
+    "url": "ttps://github.com/dv-dn/astro-integration-windicss"
+  },
   "keywords": [
     "astro",
     "astro-integration",
@@ -14,8 +17,14 @@
   "scripts": {
     "build": "vite build"
   },
+  "types": "./dist/index.d.ts",
+  "main":"./dist/index.js",
+  "module": "./dist/index.mjs",
   "exports": {
-    ".": "./dist/index.js",
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
     "./package.json": "./package.json"
   },
   "devDependencies": {

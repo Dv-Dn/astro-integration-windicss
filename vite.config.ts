@@ -10,7 +10,7 @@ export default defineConfig({
     lib: {
       name: "astro-plugin-windicss",
       entry: resolve(__dirname, "src/index.ts"),
-      formats: ["cjs"],
+      formats: ["cjs", "es"],
       fileName: `index`,
     },
     rollupOptions: {
