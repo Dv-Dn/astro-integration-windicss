@@ -1,5 +1,5 @@
 # Windicss + Astro Integration
-[![npm](https://img.shields.io/github/package-json/v/dv-dn/astro-integration-windicss?color=green&label=npm&style=for-the-badge)](https://www.npmjs.com/package/astro-integration-windicss) 
+[![npm](https://img.shields.io/badge/NPM-red?style=for-the-badge)](https://www.npmjs.com/package/astro-integration-windicss)
 
 ### Installation
 ---
@@ -29,8 +29,6 @@ Recomended plugin - [WindiCSS IntelliSense](https://marketplace.visualstudio.com
 ---
 ```json
 {
-...
-...
   "windicss.includeLanguages": {
     "astro": {
       "type": "html",
