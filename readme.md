@@ -23,7 +23,7 @@ export default defineConfig({
 
 #### Visual Studio Code settings
 ---
-Recomended plugin - [WindiCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense)
+Recommended plugin - [WindiCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=voorjaar.windicss-intellisense)
 
 ##### settings.json
 ---
